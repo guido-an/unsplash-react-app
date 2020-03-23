@@ -22,7 +22,7 @@ class App extends React.Component {
   render () {
     return (
       <div className='ui container'>
-        <SearchBar getSearchTerm={this.getSearchTerm} test='test' />
+        <SearchBar getSearchTerm={this.getSearchTerm} />
           <ImageList images={this.state.images}/>
       </div>
     )
